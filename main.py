@@ -42,4 +42,6 @@ def end(size, lights, device):
                                                     int(device)
                                                     )
                         )
-app.run(debug=True)
+#app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=8080)  # Puedes cambiar 8080 al puerto que desees
